@@ -61,9 +61,14 @@ def insertInLinkedList(head, nodeToInsert, position):
 
 
 
+#deleting node4(10)
 head = deleteNode(node1,node4)
 
-#calling traverseLinkedList function
+#creating new node to insert 
 newNode = Node(7)
+
+#inserting newnode into linkedlist at position4
 head = insertInLinkedList(node1,newNode,4)
+
+#calling traverseLinkedList function
 traverseLinkedList(head)
